@@ -140,6 +140,7 @@ input{
     background-image: url('https://res.cloudinary.com/dpokiomqq/image/upload/v1669635902/1ebc154f-cb67-46cc-9efa-91fa3cb5c01e_xhqsqf.jpg');
     background-repeat: no-repeat;
     height: 50vh;
+    background-size: contain;
     margin-top: 40px;
 }
 
@@ -255,17 +256,136 @@ input{
     background-color: #1C1C1E;
 }
 /* || SMALL */
-@media screen and (min-width: 576px)
+@media screen and (min-width: 500px){
+    .input{
+        margin-top: 5px;
+        height: 34px;
+        border-radius:20px;
+        border: 1px solid black;
+        padding: 5px 5px;
+        width: 300px;
+        display:inline-flex;
+    }
+
+    .logo{
+       display:none;
+    }
+
+}
 
 /* || MEDIUM */
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
+
+}
 
  /* || LARGE */
-@media screen and (min-width: 992px)
+@media screen and (min-width: 992px){
+
+}
 
     /* || XL */
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1200px){
+
+}
 
 
 /* || MOBILE PHONE LAND SCAPE */
-@media screen and (max height: 425px) and (min-aspect-ratio:7/4)
+@media screen and (max-width: 500px){
+    .input{
+        display:none;
+    }
+
+    .btn{
+        
+        text-decoration: none;
+        align-items: center;
+        text-align:center;
+        place-items: center;
+        display:grid;
+        width: 80px;
+        height:30px;
+        border:1px solid black;
+        margin:5px;
+    }
+    
+    .btn2{
+        background-color: #000;
+        border:1px solid black;
+        color:#fff;
+        text-decoration: none;
+        padding: 10px 10px 23px 10px;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .btn3{
+        width: 40px;
+        height:40px;
+        text-decoration: none;
+        align-items: center;
+        text-align:center;
+        border:1px solid black;
+        margin:3px; 
+    }
+
+    .hero{
+        background-image: url('https://res.cloudinary.com/dpokiomqq/image/upload/v1669635902/1ebc154f-cb67-46cc-9efa-91fa3cb5c01e_xhqsqf.jpg');
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 500px;
+        background-size: contain;
+        margin-top: 80px;
+    }
+
+    .category{
+        display:none;
+    }
+
+    .text1{
+     display:none;
+    }
+    
+    .text2{
+        display:none;
+    }
+
+    .logo{
+        display:none;
+    }
+
+    .sec-1{
+        padding: 20px;
+    }
+
+    .python-courses{
+        border: 1px solid #D9DDE0;
+        padding: 20px;
+        height: 600px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    .py-text2{
+        margin-top: 10px;
+        line-height:21px;
+        width:400px;
+    }
+
+    .cat-img{
+        margin-top: 30px;
+        display: grid;  
+        gap:10px;
+        justify-content:center;
+        place-items: center;
+        align-items: center;
+    }
+
+    .py-cards{
+        justify-content:center;
+        place-items: center;
+        align-items: center;
+    }
+    
+
+    
+}
